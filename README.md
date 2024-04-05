@@ -435,7 +435,7 @@ phases:
 cd demo-repos
 
 # Execute Git Clone
-git clone https://github.com/stacksimplify/terraform-iacdevops-with-aws-codepipeline.git
+git clone https://github.com/gerardodavidlopezcastillo/TF_IaC-DevOpsCodePipeline_Public.git
 
 # Copy all files from Section-22 Git-Repo-Files folder
 1. Source Folder Path: 22-IaC-DevOps-using-AWS-CodePipeline/Git-Repo-Files
@@ -452,7 +452,7 @@ git commit -am "First Commit"
 git push
 
 # Verify same on Remote Repository
-https://github.com/stacksimplify/terraform-iacdevops-with-aws-codepipeline.git
+https://github.com/gerardodavidlopezcastillo/TF_IaC-DevOpsCodePipeline_Public.git
 ```
 
 ## Step-12: Verify if AWS Connector for GitHub already installed on your Github
