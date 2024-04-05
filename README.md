@@ -1,3 +1,32 @@
+# TF_IaC-DevOpsCodePipeline_Public
+## **Description Details:**
+
+In this repository, you will find CodeBuild scripts that automate the execution of Terraform to deploy infrastructure on AWS. The scripts are configured to work with the development (dev) and staging (stag) environments, making it easier to create and manage resources on the AWS cloud in a reproducible and secure manner.
+
+# Key Features:
+Configurations for Development (dev) and Staging (stag) environments.
+Use of Terraform version 0.15.3.
+Deployment of resources such as VPC, ASG, ALB, Route53, ACM, Security Groups, and SNS.
+Secure handling of AWS environment variables and credentials.
+Steps Performed in the CodeBuild Scripts:
+Terraform Installation:
+
+# Download and configure Terraform version 0.15.3.
+Pre_build phase:
+
+# Preparation for Terraform execution.
+Build phase:
+
+# Navigate to the Terraform manifest directory.
+Initialize Terraform with specific configurations for dev or stag.
+Validate Terraform configuration files.
+Plan changes to be made to the infrastructure.
+Apply changes to the infrastructure according to the specified command (apply or destroy).
+Post_build phase:
+
+# Completion of Terraform execution.
+These scripts serve as a practical guide for implementing infrastructure as code on AWS using Terraform, enabling efficient and scalable management of cloud resources.
+
 ---
 title: Terraform IaC DevOps using AWS CodePipeline
 description: Create AWS CodePipeline with Multiple Environments Dev and Staging
