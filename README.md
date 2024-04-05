@@ -429,23 +429,8 @@ phases:
   post_build:
     on-failure: CONTINUE   
     commands:
-      - echo terraform execution completed on `date`             
-```
+      - echo terraform execution completed on `date`
 
-## Step-11: Create Github Repository and Check-In file
-### Step-11-01: Create New Github Repository
-- Go to  github.com and login with your credentials 
-- URL: https://github.com/stacksimplify  (my git repo url)
-- Click on **Repositories Tab**
-- Click on  **New** to create a new repository 
-- **Repository Name:** terraform-iacdevops-with-aws-codepipeline
-- **Description:** Implement Terraform IAC DevOps for AWS Project with AWS CodePipeline
-- **Repository Type:** Private
-- **Choose License:** Apache License 2.0
-- Click on **Create Repository**
-- Click on **Code** and Copy Repo link
-### Step-11-02: Clone Remote Repo and Copy all related files 
-```t
 # Change Directory
 cd demo-repos
 
