@@ -1,3 +1,7 @@
+---
+title: Terraform IaC DevOps using AWS CodePipeline
+---
+
 # TF_IaC-DevOpsCodePipeline_Public
 ## **Description Details:**
 
@@ -27,10 +31,7 @@ Post_build phase:
 # Completion of Terraform execution.
 These scripts serve as a practical guide for implementing infrastructure as code on AWS using Terraform, enabling efficient and scalable management of cloud resources.
 
----
-title: Terraform IaC DevOps using AWS CodePipeline
-description: Create AWS CodePipeline with Multiple Environments Dev and Staging
----
+
 # IaC DevOps using AWS CodePipeline
 
 ## Step-00: Introduction
